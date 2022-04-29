@@ -1,4 +1,4 @@
-package io.axoniq.foodordering.coreapi
+package com.example.cqrs.coreapi
 
 import java.util.*
 

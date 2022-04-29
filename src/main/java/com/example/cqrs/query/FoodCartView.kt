@@ -1,4 +1,4 @@
-package io.axoniq.foodordering.query
+package com.example.cqrs.query
 
 import org.springframework.data.jpa.repository.JpaRepository
 import java.util.*

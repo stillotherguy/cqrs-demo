@@ -1,11 +1,9 @@
 package com.example.cqrs.query;
 
-import io.axoniq.foodordering.coreapi.FindFoodCartQuery;
-import io.axoniq.foodordering.coreapi.FoodCartCreatedEvent;
-import io.axoniq.foodordering.coreapi.ProductDeselectedEvent;
-import io.axoniq.foodordering.coreapi.ProductSelectedEvent;
-import io.axoniq.foodordering.query.FoodCartView;
-import io.axoniq.foodordering.query.FoodCartViewRepository;
+import com.example.cqrs.coreapi.FindFoodCartQuery;
+import com.example.cqrs.coreapi.FoodCartCreatedEvent;
+import com.example.cqrs.coreapi.ProductDeselectedEvent;
+import com.example.cqrs.coreapi.ProductSelectedEvent;
 import org.axonframework.eventhandling.EventHandler;
 import org.axonframework.queryhandling.QueryHandler;
 import org.springframework.stereotype.Component;

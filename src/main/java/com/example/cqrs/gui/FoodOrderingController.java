@@ -1,10 +1,10 @@
 package com.example.cqrs.gui;
 
-import io.axoniq.foodordering.coreapi.CreateFoodCartCommand;
-import io.axoniq.foodordering.coreapi.DeselectProductCommand;
-import io.axoniq.foodordering.coreapi.FindFoodCartQuery;
-import io.axoniq.foodordering.coreapi.SelectProductCommand;
-import io.axoniq.foodordering.query.FoodCartView;
+import com.example.cqrs.coreapi.CreateFoodCartCommand;
+import com.example.cqrs.coreapi.DeselectProductCommand;
+import com.example.cqrs.coreapi.FindFoodCartQuery;
+import com.example.cqrs.coreapi.SelectProductCommand;
+import com.example.cqrs.query.FoodCartView;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.axonframework.messaging.responsetypes.ResponseTypes;
 import org.axonframework.queryhandling.QueryGateway;
