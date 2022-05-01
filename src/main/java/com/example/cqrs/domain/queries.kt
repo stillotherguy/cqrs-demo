@@ -1,4 +1,4 @@
-package com.example.cqrs.coreapi
+package com.example.cqrs.domain
 
 import java.util.*
 

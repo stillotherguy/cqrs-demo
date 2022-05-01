@@ -1,3 +1,3 @@
-package com.example.cqrs.coreapi
+package com.example.cqrs.domain
 
 class ProductDeselectionException(message: String) : Exception(message)
